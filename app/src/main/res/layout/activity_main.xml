@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="追加" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="削除" />
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="変更"/>
+        <Button
+            android:id="@+id/completion"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="完了"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+
+
+</LinearLayout>
