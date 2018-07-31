@@ -1,7 +1,6 @@
 package com.example.v3033128.bluetoothcontroller;
 
 import android.content.Context;
-import android.widget.Button;
 import android.widget.RelativeLayout;
 
 public class MyButton extends android.support.v7.widget.AppCompatButton {
